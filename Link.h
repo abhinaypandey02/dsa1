@@ -11,18 +11,18 @@ class Node;
 class Link {
 public:
 
-    void setPrevInFrom(Link *prevInFrom);
+    void setPrevInFrom(Link *prevInFromParam);
 
 
-    void setPrevInTo(Link *prevInTo);
+    void setPrevInTo(Link *prevInToParam);
 
     Link *getNextInTo() const;
 
-    void setNextInTo(Link *nextInTo);
+    void setNextInTo(Link *nextInToParam);
 
     Link *getNextInFrom() const;
 
-    void setNextInFrom(Link *nextInFrom);
+    void setNextInFrom(Link *nextInFromParam);
 
 private:
 
@@ -35,9 +35,9 @@ public:
 
     Node *getTo() const;
 
-    void setNext(Link *next);
+    void setNext(Link *nextParam);
 
-    void setPrev(Link *prev);
+    void setPrev(Link *prevParam);
 };
 
 

@@ -29,63 +29,44 @@ Node *Link::getFrom() const {
     return from;
 }
 
-void Link::setFrom(Node *from) {
-    Link::from = from;
-}
 
 Node *Link::getTo() const {
     return to;
 }
 
-void Link::setTo(Node *to) {
-    Link::to = to;
+
+
+void Link::setNext(Link *nextParam) {
+    Link::next = nextParam;
 }
 
-Link *Link::getNext() const {
-    return next;
+void Link::setPrev(Link *prevParam) {
+    Link::prev = prevParam;
 }
 
-void Link::setNext(Link *next) {
-    Link::next = next;
+
+void Link::setPrevInFrom(Link *prevInFromParam) {
+    Link::prevInFrom = prevInFromParam;
 }
 
-Link *Link::getPrev() const {
-    return prev;
-}
 
-void Link::setPrev(Link *prev) {
-    Link::prev = prev;
-}
-
-Link *Link::getPrevInFrom() const {
-    return prevInFrom;
-}
-
-void Link::setPrevInFrom(Link *prevInFrom) {
-    Link::prevInFrom = prevInFrom;
-}
-
-Link *Link::getPrevInTo() const {
-    return prevInTo;
-}
-
-void Link::setPrevInTo(Link *prevInTo) {
-    Link::prevInTo = prevInTo;
+void Link::setPrevInTo(Link *prevInToParam) {
+    Link::prevInTo = prevInToParam;
 }
 
 Link *Link::getNextInTo() const {
     return nextInTo;
 }
 
-void Link::setNextInTo(Link *nextInTo) {
-    Link::nextInTo = nextInTo;
+void Link::setNextInTo(Link *nextInToParam) {
+    Link::nextInTo = nextInToParam;
 }
 
 Link *Link::getNextInFrom() const {
     return nextInFrom;
 }
 
-void Link::setNextInFrom(Link *nextInFrom) {
-    Link::nextInFrom = nextInFrom;
+void Link::setNextInFrom(Link *nextInFromParam) {
+    Link::nextInFrom = nextInFromParam;
 }
 //Abhinay Pandey LCI2020012
