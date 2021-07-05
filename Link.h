@@ -5,14 +5,14 @@
 #ifndef DSASSIGNMENT_LINK_H
 #define DSASSIGNMENT_LINK_H
 #include "Node.h"
+//Abhinay Pandey LCI2020012
+
 class Node;
 class Link {
 public:
-    Link *getPrevInFrom() const;
 
     void setPrevInFrom(Link *prevInFrom);
 
-    Link *getPrevInTo() const;
 
     void setPrevInTo(Link *prevInTo);
 
@@ -33,20 +33,13 @@ public:
 
     Node *getFrom() const;
 
-    void setFrom(Node *from);
-
     Node *getTo() const;
 
-    void setTo(Node *to);
-
-    Link *getNext() const;
-
     void setNext(Link *next);
-
-    Link *getPrev() const;
 
     void setPrev(Link *prev);
 };
 
 
 #endif //DSASSIGNMENT_LINK_H
+//Abhinay Pandey LCI2020012

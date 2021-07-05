@@ -5,6 +5,8 @@
 #include "Node.h"
 #include "Link.h"
 #include "iostream"
+//Abhinay Pandey LCI2020012
+
 Node* Graph::addNode(int payload) {
     Node *node=new Node(payload);
     if(this->getFirstNode()== nullptr){
@@ -72,3 +74,4 @@ void Graph::showNodes() {
         n->printOutgoingLinks();
     }
 }
+//Abhinay Pandey LCI2020012

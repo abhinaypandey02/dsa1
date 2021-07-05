@@ -4,6 +4,8 @@
 
 #include "Link.h"
 #include "Node.h"
+//Abhinay Pandey LCI2020012
+
 Link::Link(Node * from, Node * to):from(from),to(to),next(nullptr),prev(nullptr) {
     if(to->getFirstIn()== nullptr){
         to->setFirstIn(this);
@@ -86,3 +88,4 @@ Link *Link::getNextInFrom() const {
 void Link::setNextInFrom(Link *nextInFrom) {
     Link::nextInFrom = nextInFrom;
 }
+//Abhinay Pandey LCI2020012

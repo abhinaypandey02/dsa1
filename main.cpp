@@ -2,6 +2,7 @@
 #include "Graph.h"
 #include "Node.h"
 #include "Link.h"
+//Abhinay Pandey LCI2020012
 int main() {
     Graph* g=new Graph();
     Node* node1=g->addNode(1);
@@ -21,3 +22,4 @@ int main() {
     g->showNodes();
     return 0;
 }
+//Abhinay Pandey LCI2020012
